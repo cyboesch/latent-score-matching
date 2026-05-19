@@ -1,0 +1,59 @@
+# ── Output / data (never source) ──────────────────────────────────
+out/
+_out/
+out_old/
+data/
+_data/
+
+# ── Python ────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+.env
+.venv
+env/
+venv/
+__pypackages__/
+.mypy_cache/
+.pytest_cache/
+.coverage
+.hypothesis/
+.ipynb_checkpoints/
+
+# ── LaTeX build artefacts ─────────────────────────────────────────
+*.aux
+*.fls
+*.fdb_latexmk
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.synctex.gz
+*.pdf
+!notes/latent_dam_force_matching.pdf
+
+# ── Generated / binary assets ─────────────────────────────────────
+*.png
+*.npz
+*.gz
+*.sif
+*.out
+*.err
+*.log
+*.pkl
+
+# ── Container / env images ────────────────────────────────────────
+diffrax
+jax-env-thermo/
+
+# ── Claude Code staging (one-time bootstrap, do not commit) ───────
+.claude-bootstrap/
+.claude/
+
+# ── Codex (host-mounted, do not commit) ───────────────────────────
+.codex-rnn/
